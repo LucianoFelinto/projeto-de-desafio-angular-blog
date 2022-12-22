@@ -1,14 +1,26 @@
 .container__menu-title{
   color: #ffffff;
+
 }
 
-.container__menu-title > h1{
+.menu-title-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-title-text > h1{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
+  font-size: 87px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+}
+
+.menu-title-img > img{
+  border-radius: 5px;
 }
 
 .container__menu-title > hr{
